@@ -148,7 +148,7 @@ async def unbanall(ctx, member: discord.Member):
         print(colours.CGREY + '[>] unbanall complete')
 
 @urmom.command()
-async def dmall(ctx):
+async def dmall(ctx, message):
     await ctx.message.delete()
     for member in ctx.guild.members:
         if member == urmom.user:
