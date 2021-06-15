@@ -1,6 +1,8 @@
 # xy-selfbot
-_commands_
-nuker  
+_commands_  
+
+nuker   
+
 misc commands  
 
 nitro sniper  
